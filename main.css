@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+}
+.temur{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+
+}
+.temur>img{
+    width: 10%;
+    height: 100%;
+    border: 2px solid whitesmoke;
+    transition: all .4s ease;
+    border-radius: 12px;
+    cursor: pointer;
+    filter: saturate(0%);
+}
+.temur>img:hover{
+    filter: saturate(100%); 
+    width: 100%;
+}
